@@ -18,3 +18,14 @@ PasswordAuthentication yes     # 密码验证登录
 AllowUsers root # 远程登录时的用户名
 
 4.用pycharm连接wsl，进行编程
+
+
+
+
+1. 以后的连接:
+进入wsl
+ sudo service ssh --full-restart
+ 
+ 
+ 然后xshell连接即可.
+ 
