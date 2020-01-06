@@ -9,6 +9,8 @@
 
 
 1.安装wsl
+
+装opensshhttps://blog.csdn.net/xiao_yuanjl/article/details/79147314
 2.设置root账号密码：
 
 
