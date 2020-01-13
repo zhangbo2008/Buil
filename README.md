@@ -10,10 +10,22 @@
 
 1.安装wsl
 
-装opensshhttps://blog.csdn.net/xiao_yuanjl/article/details/79147314
+装openssh
+
+
+https://blog.csdn.net/xiao_yuanjl/article/details/79147314
+
+sudo apt-get remove openssh-server
+
+sudo apt-get install openssh-server
+
+
+
 2.设置root账号密码：
 
 
+
+vi /etc/ssh/sshd_config
 3.Port 2222   #设置ssh的端口号, 由于22在windows中有别的用处, 尽量不修改系统的端口号
 PermitRootLogin yes   # 可以root远程登录
 PasswordAuthentication yes     # 密码验证登录
